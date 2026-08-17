@@ -133,6 +133,7 @@
 | [AltaySec Labs](https://labs.altaysec.com.tr) | Broken authentication'dan injection'a, Docker tabanlı Türkçe zafiyet lab'larını tarayıcıdan çalıştırma imkânı. | platform |
 | [Siber Tycoon](https://tycoon.altaysec.com.tr) | Siber güvenlik kariyerini oyunlaştıran Türkçe tarayıcı oyunu — SOC analistliğinden CISO'luğa ilerle. | platform |
 | [Hackviser](https://hackviser.com) | Web zafiyetleri, ağ güvenliği ve sistem sızma testleri üzerine tarayıcı üzerinden erişilebilen uygulamalı Türkçe laboratuvarlar ve CTF meydan okumaları sunan pratik platformu. | platform |
+| [Siber Kampüs Akademi](https://www.siberkampus.org/) | Web zafiyetleri ve ağ araçlarını tarayıcı içindeki sanal laboratuvarlar ve CTF odalarıyla uygulamalı öğreten Türkçe eğitim platformu. | platform |
 
 ## 📺 YouTube, Blog & Podcast
 
@@ -161,6 +162,7 @@
 | [STM ThinkTech — Siber Tehdit Durum Raporu](https://thinktech.stm.com.tr/tr) | STM'nin üç ayda bir yayımladığı Türkçe Siber Tehdit Durum Raporları ve teknoloji analizleri. | doküman |
 | [PwnLabMe](https://pwnlab.me/) | Sızma testi, zararlı yazılım analizi, ağ güvenliği ve CTF konularında Türkçe soru-cevap, eğitim içerikleri ve kariyer/sertifika rehberleri barındıran aktif siber güvenlik topluluk forumu. | topluluk |
 | [Bilgi Teknolojileri ve İletişim Dergisi (BTK Dergi)](https://dergi.btk.gov.tr/tr/pub/btkdergi) | BTK'nın siber güvenlik, bilgi güvenliği, ağ güvenliği, kriptografi ve siber savunma alanlarında Türkçe açık erişimli hakemli makaleler yayımladığı akademik dergi. | doküman |
+| [Cyber BlackSea](https://cyber-blacksea.ktusec.com.tr/) | Karadeniz bölgesindeki öğrencileri, uzmanları ve sektör profesyonellerini CTF ve uygulamalı siber güvenlik eğitimleri etrafında bir araya getiren Türkçe zirve ve topluluk platformu. | topluluk |
 
 ## 🗂️ Diğer Türkçe Derlemeler
 
