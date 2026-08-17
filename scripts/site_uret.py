@@ -53,12 +53,20 @@ def readme_ayristir(metin: str):
     return [k for k in kategoriler if k["kaynaklar"]]
 
 
-def sayac_guncelle(metin: str, toplam: int) -> str:
-    return re.sub(
-        r"kaynak-\d+-1C2957",
-        f"kaynak-{toplam}-1C2957",
-        metin,
-    )
+def sayac_guncelle(metin: str, toplam: int, kategoriler) -> str:
+    """Rozetteki toplam ve İçindekiler'deki kategori sayaçlarını yeniden yazar.
+
+    Katkıcıların sayaçları elle güncellemesi gerekmez; bu fonksiyon her
+    çalıştırmada gerçek sayıları basar.
+    """
+    metin = re.sub(r"kaynak-\d+-1C2957", f"kaynak-{toplam}-1C2957", metin)
+    for k in kategoriler:
+        metin = re.sub(
+            r"(- \[" + re.escape(f"{k['emoji']} {k['ad']}") + r"\]\(#[^)]*\)) `\d+`",
+            r"\1 `" + str(len(k["kaynaklar"])) + "`",
+            metin,
+        )
+    return metin
 
 
 def kart(k):
@@ -79,7 +87,7 @@ def uret():
     if toplam == 0:
         sys.exit("HATA: README'den hiç kaynak ayrıştırılamadı; tablo formatı bozulmuş olabilir.")
 
-    README.write_text(sayac_guncelle(metin, toplam), encoding="utf-8")
+    README.write_text(sayac_guncelle(metin, toplam, kategoriler), encoding="utf-8")
 
     # ---- kategori bölümleri ----
     bolumler, cipler = [], []

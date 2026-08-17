@@ -37,7 +37,7 @@ a{color:var(--mavi)}
 /* ---- üst çubuk ---- */
 .ustbar{
   position:sticky; top:0; z-index:50; display:flex; align-items:center; gap:14px;
-  padding:12px 24px; background:rgba(255,255,255,.86); backdrop-filter:blur(12px);
+  padding:12px 24px; background:rgba(255,255,255,.97);
   border-bottom:1px solid var(--cizgi);
 }
 .marka{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--murekkep); font-family:"Sora"; font-weight:700; font-size:15px}
@@ -125,6 +125,19 @@ main{max-width:1080px; margin:0 auto; padding:34px 24px 60px}
 .bos-mesaj{display:none; text-align:center; color:var(--soluk); padding:60px 0}
 .bos-mesaj.goster{display:block}
 
+/* ---- katkıcılar ---- */
+.ekip{display:none; margin:52px 0 0; text-align:center}
+.ekip.goster{display:block}
+.ekip h2{font-size:24px; color:var(--lacivert); margin:0 0 6px}
+.ekip .kat-tanim{max-width:none; margin-bottom:22px}
+.avatarlar{display:flex; flex-wrap:wrap; justify-content:center; gap:18px 22px}
+.kisi{display:flex; flex-direction:column; align-items:center; gap:7px; text-decoration:none; width:86px; transition:transform .18s}
+.kisi:hover{transform:translateY(-3px)}
+.kisi img{width:64px; height:64px; border-radius:50%; border:2.5px solid var(--cizgi); background:var(--kagit)}
+.kisi:hover img{border-color:var(--lacivert)}
+.kisi span{font-size:12px; font-weight:600; color:var(--murekkep); max-width:86px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.kisi b{font-size:11px; font-weight:600; color:var(--soluk)}
+
 /* ---- katkı bandı ---- */
 .katki{
   position:relative; overflow:hidden; background:var(--lacivert); color:#fff;
@@ -204,6 +217,12 @@ footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 
   @@BOLUMLER@@
   <p class="bos-mesaj" id="bos">Aramanla eşleşen kaynak bulunamadı.</p>
 
+  <section class="ekip" id="katkicilar">
+    <h2>👥 Katkıda Bulunanlar</h2>
+    <p class="kat-tanim">Bu dizini pull request'leriyle büyüten herkes:</p>
+    <div class="avatarlar" id="avatarlar"></div>
+  </section>
+
   <div class="katki">
     <h2>Eksik kaynak mı gördün?</h2>
     <p>Bu dizin TÜGA Siber Güvenlik Komitesi tarafından yürütülür ve katkıya açıktır. Bildiğin bir Türkçe kaynağı pull request ile ekleyebilirsin.</p>
@@ -223,36 +242,40 @@ footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 
 (function(){
   const c=document.getElementById('ag'), ctx=c.getContext('2d');
   const azHareket=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let W,H,noktalar=[];
+  const DPR=Math.min(devicePixelRatio||1,1.5);
+  let W,H,noktalar=[],calisiyor=false,gorunur=true;
   function kur(){
-    W=c.width=c.offsetWidth*devicePixelRatio; H=c.height=c.offsetHeight*devicePixelRatio;
-    const n=Math.min(70,Math.floor(c.offsetWidth/16));
+    W=c.width=c.offsetWidth*DPR; H=c.height=c.offsetHeight*DPR;
+    const n=Math.min(50,Math.floor(c.offsetWidth/24));
     noktalar=Array.from({length:n},()=>({
       x:Math.random()*W, y:Math.random()*H,
-      vx:(Math.random()-.5)*.22*devicePixelRatio, vy:(Math.random()-.5)*.22*devicePixelRatio,
-      r:(Math.random()*2.4+1.1)*devicePixelRatio
+      vx:(Math.random()-.5)*.25*DPR, vy:(Math.random()-.5)*.25*DPR,
+      r:(Math.random()*2.4+1.1)*DPR
     }));
   }
+  const MENZIL=125*DPR, MENZIL2=MENZIL*MENZIL;
   function ciz(){
     ctx.clearRect(0,0,W,H);
-    const menzil=130*devicePixelRatio;
+    ctx.lineWidth=DPR*.8;
     for(let i=0;i<noktalar.length;i++){
       const a=noktalar[i];
       for(let j=i+1;j<noktalar.length;j++){
-        const b=noktalar[j], dx=a.x-b.x, dy=a.y-b.y, m=Math.hypot(dx,dy);
-        if(m<menzil){
-          ctx.strokeStyle='rgba(163,172,199,'+(0.34*(1-m/menzil))+')';
-          ctx.lineWidth=devicePixelRatio*.8;
+        const b=noktalar[j], dx=a.x-b.x;
+        if(dx>MENZIL||dx<-MENZIL)continue;
+        const dy=a.y-b.y, d2=dx*dx+dy*dy;
+        if(d2<MENZIL2){
+          ctx.globalAlpha=.34*(1-d2/MENZIL2);
+          ctx.strokeStyle='#A3ACC7';
           ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
         }
       }
     }
-    for(const p of noktalar){
-      ctx.fillStyle='rgba(28,41,87,.55)';
-      ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fill();
-    }
+    ctx.globalAlpha=.55; ctx.fillStyle='#1C2957';
+    for(const p of noktalar){ ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fill(); }
+    ctx.globalAlpha=1;
   }
   function adim(){
+    if(!gorunur){calisiyor=false;return;}
     for(const p of noktalar){
       p.x+=p.vx; p.y+=p.vy;
       if(p.x<0||p.x>W)p.vx*=-1;
@@ -260,7 +283,9 @@ footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 
     }
     ciz(); requestAnimationFrame(adim);
   }
-  kur(); azHareket?ciz():adim();
+  function baslat(){ if(!calisiyor&&!azHareket){calisiyor=true;requestAnimationFrame(adim);} }
+  kur(); azHareket?ciz():baslat();
+  new IntersectionObserver(e=>{ gorunur=e[0].isIntersecting; if(gorunur)baslat(); }).observe(c);
   addEventListener('resize',()=>{kur(); if(azHareket)ciz();});
 })();
 
@@ -270,6 +295,24 @@ footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 
     if(e.isIntersecting){e.target.classList.add('gorunur');io.unobserve(e.target);}
   }),{rootMargin:'0px 0px -6% 0px'});
   document.querySelectorAll('.kart').forEach(k=>io.observe(k));
+})();
+
+/* ---- katkıcılar (GitHub API) ---- */
+(function(){
+  fetch('https://api.github.com/repos/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/contributors?per_page=100')
+    .then(r=>r.ok?r.json():Promise.reject())
+    .then(kisiler=>{
+      const kutu=document.getElementById('avatarlar');
+      kisiler.filter(k=>k.type==='User').forEach(k=>{
+        const a=document.createElement('a');
+        a.className='kisi'; a.href=k.html_url; a.target='_blank'; a.rel='noopener';
+        a.innerHTML='<img loading="lazy" alt="'+k.login+'" src="'+k.avatar_url+'&s=128">'
+          +'<span>'+k.login+'</span><b>'+k.contributions+' katkı</b>';
+        kutu.appendChild(a);
+      });
+      if(kutu.children.length)document.getElementById('katkicilar').classList.add('goster');
+    })
+    .catch(()=>{});
 })();
 
 /* ---- arama + kategori filtresi ---- */

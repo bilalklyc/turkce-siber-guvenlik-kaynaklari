@@ -15,6 +15,8 @@ Her eklenen kaynak şu 4 şartı sağlamalı:
 
 > Bir kaynak birden fazla kategoriye uyuyorsa en çok uyduğu **tek** kategoriye ekle. Her alana katkı serbest — istediğin kategoriye, istediğin kadar PR atabilirsin.
 
+> ⚙️ Rozetteki kaynak sayısını ve İçindekiler'deki kategori sayaçlarını **elle güncelleme** — her merge'den sonra otomatik yeniden hesaplanıyor. Senin tek işin tabloya satır eklemek.
+
 ## GitHub Arayüzünden (5 adım)
 
 1. **Fork'la:** Bu sayfanın sağ üstündeki **Fork** düğmesine bas. Reponun senin hesabında bir kopyası oluşur.
