@@ -1,0 +1,180 @@
+<div align="center">
+
+<img src="assets/tuga-logo.jpeg" alt="TÜGA — Türkiye Girişim Ağı" width="340">
+
+# Türkçe Siber Güvenlik Kaynakları
+
+**Türkçe siber güvenlik ekosisteminin tamamı — doğrulanmış, kategorilenmiş, topluluk eliyle büyüyen tek dizin.**
+
+[![Kaynak Sayısı](https://img.shields.io/badge/kaynak-51-1C2957?style=flat-square)](#-i̇çindekiler)
+[![Link Kontrolü](https://img.shields.io/github/actions/workflow/status/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/link-kontrol.yml?style=flat-square&label=linkler&color=2E4FD0)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/actions/workflows/link-kontrol.yml)
+[![PR'lar Açık](https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-2E4FD0?style=flat-square)](CONTRIBUTING.md)
+[![Katkıcılar](https://img.shields.io/github/contributors/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari?style=flat-square&label=katk%C4%B1c%C4%B1&color=1C2957)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/graphs/contributors)
+[![Lisans](https://img.shields.io/badge/lisans-CC%20BY%204.0-5C6683?style=flat-square)](LICENSE.md)
+
+🌐 **[Aranabilir siteyi aç →](https://fevziegeyurtsevenler.github.io/turkce-siber-guvenlik-kaynaklari/)** &nbsp;·&nbsp; ✍️ **[Katkıda bulun →](CONTRIBUTING.md)**
+
+*TÜGA Siber Güvenlik Komitesi tarafından yürütülür. Her kaynak eklenmeden önce **canlılık** ve **Türkçe içerik** kontrolünden geçer; linkler her hafta otomatik taranır.*
+
+</div>
+
+---
+
+## 📚 İçindekiler
+
+- [🚀 Başlangıç & Eğitim](#baslangic-egitim) `6`
+- [🕸️ Web Güvenliği & Sızma Testi](#web-guvenligi-sizma-testi) `4`
+- [🌐 Ağ & Sistem Güvenliği](#ag-sistem-guvenligi) `8`
+- [🛡️ Savunma — Blue Team & SOC](#savunma-blue-team-soc) `6`
+- [🔬 Adli Bilişim & Zararlı Analizi](#adli-bilisim-zararli-analizi) `5`
+- [🤖 Yapay Zekâ Güvenliği](#yapay-zeka-guvenligi) `3`
+- [🚩 CTF & Pratik](#ctf-pratik) `5`
+- [📺 YouTube, Blog & Podcast](#youtube-blog-podcast) `5`
+- [🏛️ Kurumlar, Topluluklar & Kariyer](#kurumlar-topluluklar-kariyer) `5`
+- [🗂️ Diğer Türkçe Derlemeler](#diger-turkce-derlemeler) `4`
+- [🤝 Katkı](#-katkı)
+
+
+## 🚀 Başlangıç & Eğitim
+
+> Sıfırdan başlayanlar için ücretsiz Türkçe eğitim platformları, yetiştirme programları ve yol haritaları.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [BTK Akademi — Siber Güvenlik Eğitimleri](https://www.btkakademi.gov.tr/portal/catalog?categoryId=1003) | Devletin (BTK) resmi eğitim platformunda Siber Güvenliğe Giriş'ten Siber Güvenlik Analisti serisine kadar yüzlerce ücretsiz Türkçe video kurs ve sınavla katılım sertifikası sunar. | kurs |
+| [Herkes İçin Siber Güvenlik](https://herkesicinsiberguvenlik.net/) | Teknik bilgisi olmayanlar dahil herkese yönelik, insan kaynaklı siber riskleri anlatan tamamen ücretsiz Türkçe video eğitim ve sertifika sınavı projesi. | kurs |
+| [Türkiye Siber Vatan Programı](https://www.sibervatan.org/) | Lise ve üniversite öğrencilerini sıfırdan siber güvenlik uzmanlığına taşıyan, online eğitim + uygulamalı lab + CTF aşamalı ulusal ücretsiz yetiştirme programı (0'dan 1'e, BootCamp, TeamsCamp). | platform |
+| [Mehmet İnce — Siber Güvenlik Alanında Kendimi Nasıl Geliştirebilirim?](https://tr.mehmetince.net/siber-guvenlik-alaninda-kendimi-nasil-gelistirebilirim-nereden-baslamaliyim/) | Tanınmış Türk güvenlik araştırmacısının yeni başlayanlar için yazdığı yol haritası: İngilizce, Linux, üniversite derslerinin rolü, ücretsiz kaynaklarla çalışma ve uzmanlık alanı seçimi üzerine somut tavsiyeler. | blog |
+| [SİBERAY](https://www.siberay.com/) | İçişleri Bakanlığı Siber Suçlarla Mücadele Daire Başkanlığı'nın; internet güvenliği, zararlı yazılımlar, teknoloji bağımlılığı ve dijital okuryazarlık konularında bireyler, ebeveynler ve öğretmenler için ücretsiz Türkçe farkındalık içerikleri sunan resmi platformu. | site |
+| [AltaySec Ekosistemi](https://altaysec.com.tr/ekosistem/) | Tamamı Türkçe ve ücretsiz 17+ siber güvenlik platformunu (akademi, lab, oyun, araç) tek sayfada toplayan ekosistem haritası. | site |
+
+## 🕸️ Web Güvenliği & Sızma Testi
+
+> Web zafiyetleri, pentest ve bug bounty üzerine Türkçe rehberler, çeviriler ve topluluklar.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [Bughane Academy](https://bughaneacademy.com/) | XSS, SQL injection, IDOR, SSRF ve CSRF gibi web zafiyetleri üzerine gerçek bug bounty write-up'ları, payload/bypass teknikleri ve mentorluk alanı sunan ücretsiz Türkçe bug bounty topluluğu. | topluluk |
+| [OWASP Top 10 2017 Resmi Türkçe Çevirisi](https://github.com/OWASP/Top10/tree/master/2017/tr) | OWASP Top 10 2017'nin resmi Türkçe çevirisi: injection'dan XSS'e 10 riskin her biri için ayrı Türkçe markdown dosyaları ile geliştirici/testçi/yönetici rehberleri ve Türkçe sunum dosyası. | doküman |
+| [Hack 4 Career (Mert Sarıca)](https://www.mertsarica.com/) | 2009'dan beri yayında olan, sızma testi, zafiyet araştırması, oltalama analizi ve tehdit istihbaratı yazıları içeren köklü Türkçe (son yıllarda çift dilli) güvenlik araştırma blogu. | blog |
+| [TurkHackTeam — Bug Bounty Rehberi](https://www.turkhackteam.org/konular/bug-bounty-rehberi.1909918/) | Bug bounty'ye sıfırdan başlayanlar için HackerOne/Bugcrowd gibi platformları, P1-P5 zafiyet sınıflandırmasını ve Burp Suite/Nmap gibi araçları Türkçe anlatan başlangıç rehberi. | doküman |
+
+## 🌐 Ağ & Sistem Güvenliği
+
+> Ağ temelleri, Linux güvenliği ve sistem sıkılaştırma üzerine Türkçe anlatımlar.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [Linux Dersleri — Ağ (Network) Temelleri Eğitimi](https://www.linuxdersleri.net/temel-network.html) | OSI/TCP-IP modeli, switch-router çalışması ve ağ protokollerini 8 bölümde anlatan ücretsiz Türkçe ağ temelleri serisi; aynı sitede Temel Linux eğitimi de var. | site |
+| [Açıklab — Linux İşletim Sistemi Sıkılaştırma Tedbirleri](https://dev.to/aciklab/linux-i-sletim-sistemi-sikilastirma-tedbirleri-hakkinda-83p) | Cumhurbaşkanlığı DDO 'Bilgi ve İletişim Güvenliği Rehberi'ndeki 8 Linux sıkılaştırma tedbirini (dosya sistemi, disk bölümlendirme, bütünlük kontrolü, MAC/SELinux) 3 seviye halinde açıklayan Türkçe makale. | blog |
+| [BGA Cyber Security — Makale Arşivi](https://www.bgasecurity.com/makaleler/) | Ağ güvenliği, DDoS savunması, firewall/IPS/WAF, sızma testi ve zararlı analiz laboratuvarı kurulumu gibi konularda yüzlerce ücretsiz Türkçe teknik makale ve döküman arşivi. | site |
+| [Geleceği Yazanlar (Turkcell) — Temel Network](https://gelecegiyazanlar.turkcell.com.tr/egitimler/temel-network) | TCP/IP, OSI, IP adresleme, VLAN, yönlendirme ve NAT konularını kapsayan, sınav geçince sertifika veren ücretsiz Türkçe network kursu (kayıt gerekli, 16 binden fazla öğrenci). | kurs |
+| [Beyaz.net — Linux Sunucu Güvenliği](https://www.beyaz.net/tr/arge/makaleler/linux_sunucu_guvenligi.html) | Disk bölümleme, kritik yapılandırma dosyaları (/etc/passwd, /etc/shadow), servis kapatma, SELinux, SSH ve kernel parametrelerini kapsayan komut örnekli Türkçe Linux sunucu sıkılaştırma rehberi. | doküman |
+| [Privia Security Blog — Linux Güvenlik Yapılandırması](https://www.priviasecurity.com/blog/linux-guvenlik-yapilandirmasi/) | Root hesap yönetimi, servis azaltma, umask/dosya izinleri, OSSEC-Samhain ile bütünlük izleme ve nodev/nosuid/noexec mount seçeneklerini anlatan Türkçe Linux sıkılaştırma yazısı; blogda başka sistem güvenliği yazıları da var. | blog |
+| [siberguvenlik.gen.tr — Siber Güvenlik ve Etik Hacking Ders Notları](https://siberguvenlik.gen.tr/ders/) | İşletim sistemleri, ağlar, kriptoloji, kablosuz ağ güvenliği ve sızma testlerini kapsayan 15 haftalık üniversite dersinin ücretsiz Türkçe sunum ve not arşivi. | doküman |
+| [Murat Kara — Bilgisayar Ağları (Network) Ders Notu PDF](https://muratkara.tr/network/Network.pdf) | Bilgisayar ağlarına girişten protokollere kadar konuları kapsayan 246 sayfalık ücretsiz Türkçe ders notu PDF'i (öğretim görevlisi Murat Kara'nın ders materyali). | doküman |
+
+## 🛡️ Savunma — Blue Team & SOC
+
+> SOC, SIEM, log analizi ve olay müdahale tarafının Türkçe kaynakları.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [USOM Zararlı Bağlantılar Listesi](https://www.usom.gov.tr/adres) | Siber Güvenlik Başkanlığı'nın resmi tehdit istihbaratı beslemesi: Türkiye'ye yönelik oltalama ve zararlı alan adlarının güncel listesi; SOC ekiplerinin engelleme listelerine doğrudan entegre edebileceği ulusal kaynak (hizmetler kademeli olarak siberguvenlik.gov.tr'ye taşınıyor, .txt paylaşımı Haziran 2026'da API'ye dönüyor). | site |
+| [Sibermetin — SIEM Ürünlerine Genel Bakış](https://sibermetin.com/siem-ueruenlerine-genel-bakis) | Splunk, IBM QRadar ve açık kaynak Wazuh gibi SIEM ürünlerini log toplama ve tehdit tespiti perspektifinden karşılaştıran Türkçe makale; sitenin genelinde adli bilişim, ağ analizi ve CTF çözümleri de var. | blog |
+| [Turkcell Geleceği Yazanlar — SOC Analisti Olma Rehberi](https://gelecegiyazanlar.turkcell.com.tr/blog/soc-analisti-olma-rehberi-1) | SOC analisti olmak isteyenler için ağ temelleri, log analizi (Event Viewer, /var/log, Splunk/ELK), SIEM-SOAR kavramları, tehdit avcılığı ve sertifika yol haritasını tek yazıda toplayan ücretsiz Türkçe rehber. | blog |
+| [BGA Cyber Security SlideShare Arşivi](https://www.slideshare.net/bgasecurity) | 270+ Türkçe sunumluk arşiv: 'Open Source SOC Kurulumu', 'SOC Ekipleri için MITRE ATT&CK Kullanım Senaryoları', 'Hacklenmiş Windows Sistem Analizi' ve log yönetimi/saldırı analizi eğitim slaytları gibi savunma tarafı materyalleri ücretsiz sunuyor. | doküman |
+| [BGA — SOC Ekiplerinin Kullandığı Kısaltmalar ve Tanımların Türkçe Anlamları](https://www.bgasecurity.com/2021/11/soc-ekiplerinin-kullandigi-kisaltmalar-ve-tanimlarin-turkce-anlamlari/) | APT'den Zero Trust'a 70'ten fazla SOC terimini alfabetik sırayla Türkçe tanımlayan sözlük; SOC'a yeni başlayan analistler için hızlı başvuru kaynağı. | doküman |
+| [SIEM ve Splunk Nedir? & Splunk Kurulumu (İbrahim Kadıkıran, Medium)](https://medium.com/@ibrahimkadikiran/siem-ve-splunk-nedir-splunk-kurulumu-c590e72f8f36) | SIEM kavramını (SIM+SEM) açıklayıp Linux/CentOS üzerinde Splunk'ı RPM ile adım adım kurmayı ve web arayüzüne erişimi gösteren uygulamalı Türkçe yazı. | blog |
+
+## 🔬 Adli Bilişim & Zararlı Analizi
+
+> Adli bilişim, bellek analizi ve zararlı yazılım tersine mühendisliği üzerine Türkçe içerikler.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [BTK Akademi — Adli Bilişim Eğitimi](https://www.btkakademi.gov.tr/portal/course/adli-bilisime-giris-24376) | BTK'nın ücretsiz ve katılım sertifikalı Türkçe adli bilişim programı; dijital delil toplama, imaj alma ve adli inceleme süreçlerini video derslerle anlatıyor, bilirkişilik yapan akademisyen eğitmen tarafından hazırlanmış. | kurs |
+| [TurkHackTeam — Malware Analysis (Zararlı Yazılım Analizi) Rehberi Serisi](https://www.turkhackteam.org/konular/1-malware-analysis-zararli-yazilim-analizi-rehberi.2083339/) | Zararlı yazılım türlerinden statik/dinamik analize, PE dosya yapısından x64dbg ile debugging ve packing/unpacking tekniklerine kadar uzanan çok bölümlük Türkçe malware analizi yazı dizisi; güvenli lab kurulumunu da adım adım anlatıyor. | blog |
+| [PwnLabMe — Volatility Framework ile Memory Forensics](https://pwnlab.me/konular/volatility-framework-ile-memory-forensics.284/) | Türkçe siber güvenlik topluluğu PwnLabMe'de Volatility eklentileriyle (imageinfo, pslist, cmdscan, envars) gerçek bir bellek dökümünün adım adım incelendiği, CyberChef ile XOR çözümüne kadar giden uygulamalı memory forensics anlatımı. | topluluk |
+| [Muhammed Aygün — DFIR Blog (Memory/Linux/ESXi Forensics)](https://www.muhammedaygun.com/2024/07/25/memory-forensics-part-i/) | Adli bilişim mühendisinin Türkçe DFIR blogu; Memory Forensics Part I-II, Linux Forensics ve 3 bölümlük ESXi Forensics serileriyle RAM ve sistem incelemelerini vaka odaklı anlatıyor. | blog |
+| [GAIS Security — Zararlı Yazılım Analiz Teknikleri](https://www.gaissecurity.com/blog/zararli-yazilim-analiz-teknikleri) | Statik analiz, dinamik (davranışsal) analiz ve bellek analizi olmak üzere üç temel malware analizi yaklaşımını VirusTotal, process izleme araçları ve Volatility örnekleriyle anlatan Türkçe giriş makalesi. | blog |
+
+## 🤖 Yapay Zekâ Güvenliği
+
+> LLM ve yapay zekâ güvenliği — Türkçenin en yeni ve en hızlı büyüyen siber güvenlik alanı.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [awesome-ai-security-tr](https://github.com/fevziegeyurtsevenler/awesome-ai-security-tr) | Prompt injection'dan model güvenliğine, 300'den fazla kaynakla Türkçe yapay zekâ güvenliği dizini. | repo |
+| [LLM Security Akademi](https://ai.altaysec.com.tr) | LLM güvenliğini sıfırdan Türkçe anlatan ücretsiz akademi: dersler, saldırı teknikleri ve uygulamalı örnekler. | platform |
+| [AltaySec ATLAS Labs](https://fevziegeyurtsevenler.github.io/altaysec-atlas/) | MITRE ATLAS saldırı matrisini Türkçe açıklayan ve tarayıcı içinde AI saldırı simülasyonları sunan interaktif lab. | platform |
+
+## 🚩 CTF & Pratik
+
+> Elini kirletmeden öğrenilmez: Türkçe CTF platformları, writeup arşivleri ve uygulamalı lab ortamları.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [Siberkülüpler CTF](https://ctf.siberkulupler.com/) | Skor tablosu baskısı olmadan 7/24 açık, geçmiş Türk CTF etkinliklerinin sorularını arşivleyip yeni başlayanların kendi hızında pratik yapmasını sağlayan Türkçe CTF laboratuvar platformu (CTFd tabanlı). | platform |
+| [SiberMetin CTF Write-up Arşivi](https://sibermetin.com/ctf-writeup) | TryHackMe, Hack The Box, CyberDefenders ve PortSwigger lab'larındaki zafiyetli makinelerin adım adım Türkçe çözümlerini içeren, 2021'den beri aktif write-up arşivi (38 write-up + 118 siber güvenlik makalesi). | blog |
+| [CyberFlow](https://cyberflow.beyazhacker.com/tr) | Eğitim, video, test ve CTF modüllerini tek çatıda birleştiren, ağ güvenliği ve web pentest lab'larıyla pratik odaklı Türkçe siber güvenlik eğitim platformu; ücretsiz giriş katmanı var, ileri içerik premium. | platform |
+| [AltaySec Labs](https://labs.altaysec.com.tr) | Broken authentication'dan injection'a, Docker tabanlı Türkçe zafiyet lab'larını tarayıcıdan çalıştırma imkânı. | platform |
+| [Siber Tycoon](https://tycoon.altaysec.com.tr) | Siber güvenlik kariyerini oyunlaştıran Türkçe tarayıcı oyunu — SOC analistliğinden CISO'luğa ilerle. | platform |
+
+## 📺 YouTube, Blog & Podcast
+
+> Düzenli Türkçe içerik üreten kanallar, bloglar ve haber kaynakları.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [Mehmet İnce (mdisec) YouTube Kanalı](https://www.youtube.com/@mdisec) | 300+ zafiyet keşfetmiş bir sızma testi uzmanının canlı yayın ve derslerle web güvenliği, exploit geliştirme ve siber güvenlik kariyerini Türkçe anlattığı, 47 bin aboneli aktif YouTube kanalı. | youtube |
+| [Utku Şen YouTube Kanalı](https://www.youtube.com/@UtkuSenYoutube) | 20 yıllık siber güvenlik araştırmacısı Utku Şen'in güvenlik gündemi, yapay zeka güvenliği ve kariyer konularını Türkçe video ve 'S.A.H.' sohbet serisi bölümleriyle işlediği 40 bin aboneli aktif kanal. | youtube |
+| [Siber Bülten](https://siberbulten.com/) | Siber güvenlik haberleri, kritik altyapı güvenliği, KVKK ve siber diplomasi analizlerini 2016'dan beri tamamen Türkçe yayınlayan; kendini siber güvenliğin 'Türkçe hafızası' olarak konumlandıran haber-analiz sitesi. | site |
+| [Halil Öztürkci Blog](https://halilozturkci.com/) | Adli bilişim (forensics) alanının Türkiye'deki öncü isimlerinden Halil Öztürkci'nin agentic AI güvenliği, APT faaliyetleri, siber savaş ve KVKK konularını Türkçe işlediği kişisel blog. | blog |
+| [Türkiye Siber Güvenlik Kümelenmesi YouTube Kanalı](https://www.youtube.com/c/turkiyesiberguvenlikkumelenmesi) | Savunma Sanayii Başkanlığı destekli Siber Güvenlik Kümelenmesi'nin sektör buluşmaları, webinar ve kariyer içeriklerini Türkçe yayınladığı 11,8 bin aboneli resmi kanal. | youtube |
+
+## 🏛️ Kurumlar, Topluluklar & Kariyer
+
+> Resmi kurumlar, öğrenci toplulukları, raporlar ve kariyer kaynakları.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [USOM — Ulusal Siber Olaylara Müdahale Merkezi](https://www.usom.gov.tr/) | Türkiye'nin resmi siber olay müdahale merkezi; zararlı bağlantı listeleri, zafiyet bildirimleri, güvenlik duyuruları ve siber ihbar mekanizması sunar. | site |
+| [T.C. Siber Güvenlik Başkanlığı](https://www.siberguvenlik.gov.tr/) | Türkiye'nin siber güvenlikten sorumlu resmi çatı kurumunun sitesi; ulusal siber güvenlik politikaları, mevzuat ve kurumsal duyuruların birincil kaynağı. | site |
+| [Siber Kulüpler Birliği](https://siberkulupler.com/) | 2018'den beri Türkiye'deki 50'den fazla üniversite siber güvenlik kulübünü tek çatıda toplayan öğrenci ağı; etkinlik, eğitim programı, kurs ve staj duyurularının merkezi. | topluluk |
+| [STM ThinkTech — Siber Tehdit Durum Raporu](https://thinktech.stm.com.tr/tr) | STM'nin üç ayda bir yayımladığı Türkçe Siber Tehdit Durum Raporları ve teknoloji analizleri. | doküman |
+| [PwnLabMe](https://pwnlab.me/) | Sızma testi, zararlı yazılım analizi, ağ güvenliği ve CTF konularında Türkçe soru-cevap, eğitim içerikleri ve kariyer/sertifika rehberleri barındıran aktif siber güvenlik topluluk forumu. | topluluk |
+
+## 🗂️ Diğer Türkçe Derlemeler
+
+> Bu repoya benzer amaç taşıyan diğer Türkçe kaynak depoları — ekosistem hep birlikte büyür.
+
+| Kaynak | Açıklama | Tür |
+|--------|----------|-----|
+| [LuNiZz — siber-guvenlik-sss](https://github.com/LuNiZz/siber-guvenlik-sss) | Web güvenliği, sızma testi lab kurulumu, pentest araçları ve TryHackMe/HackTheBox gibi pratik platformlara yol haritası veren, aktif bakımlı 3.6k yıldızlı Türkçe SSS deposu. | repo |
+| [hackercamp](https://github.com/halit/hackercamp) | "Enine boyuna siber güvenlik" — aktif olarak güncellenen kapsamlı Türkçe eğitim ve içerik reposu. | repo |
+| [Siber Güvenlik Rehberi](https://github.com/cumakurt/Siber_Guvenlik_Rehberi) | Temel kavramlardan uygulamaya Türkçe siber güvenlik eğitim rehberi. | repo |
+| [Türkçe Kaynaklar — Siber Güvenlik Bölümü](https://turkcekaynaklar.org/kaynaklar) | OWASP Top 10 Türkçe çevirisi, penetrasyon testi ve zararlı yazılım analizi dahil topluluk derlemesi ücretsiz Türkçe kurs/video/doküman dizini; seviyeye göre filtrelenebilen 43 kaynak listeler. | site |
+
+
+---
+
+## 🤝 Katkı
+
+Eksik gördüğün Türkçe kaynağı pull request ile ekleyebilirsin — adımlar ve kabul kriterleri [CONTRIBUTING.md](CONTRIBUTING.md)'de.
+
+Kabul kriterleri kısaca: **Türkçe içerik · canlı link · tek cümlelik somut açıklama · yasal kaynak.**
+
+<a href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/graphs/contributors"><img src="https://contrib.rocks/image?repo=fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari" alt="Katkıcılar"></a>
+
+## 📜 Lisans
+
+İçerik [CC BY 4.0](LICENSE.md) — kaynak göstererek dilediğin gibi kullan. Listelenen kaynaklar kendi sahiplerinindir.
+
+<div align="center">
+
+**TÜGA Siber Güvenlik Komitesi** · Komite Başkanı: [Fevzi Ege Yurtsevenler](https://www.linkedin.com/in/fevziege/)
+
+⭐ *Faydalı bulduysan yıldızla — daha çok kişiye ulaşmasını sağlarsın.*
+
+</div>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fevziegeyurtsevenler.github.io/turkce-siber-guvenlik-kaynaklari/sitemap.xml

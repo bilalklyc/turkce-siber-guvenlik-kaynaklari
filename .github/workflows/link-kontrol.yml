@@ -1,0 +1,29 @@
+name: 🔗 Link Kontrolü
+
+on:
+  pull_request:
+    paths: ["README.md"]
+  schedule:
+    - cron: "0 6 * * 1" # her pazartesi 09:00 (TR)
+  workflow_dispatch:
+
+jobs:
+  linkler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Linkleri tara
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --timeout 20
+            --max-retries 2
+            --accept 200..=299,403,429,999
+            --exclude "linkedin.com"
+            --exclude "twitter.com"
+            --exclude "x.com"
+            README.md
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

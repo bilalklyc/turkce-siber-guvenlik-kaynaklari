@@ -1,0 +1,44 @@
+name: 💡 Kaynak Öner
+description: PR atmadan kaynak önermek için (birisi senin adına ekler)
+title: "[Öneri] "
+labels: ["kaynak-önerisi"]
+body:
+  - type: input
+    id: ad
+    attributes:
+      label: Kaynak adı
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: input
+    id: aciklama
+    attributes:
+      label: Tek cümlelik Türkçe açıklama
+      placeholder: "Web zafiyetlerini Türkçe lab'larla anlatan ücretsiz platform"
+    validations:
+      required: true
+  - type: dropdown
+    id: kategori
+    attributes:
+      label: Kategori
+      options:
+        - Başlangıç & Eğitim
+        - Web Güvenliği & Sızma Testi
+        - Ağ & Sistem Güvenliği
+        - Savunma (Blue Team & SOC)
+        - Adli Bilişim & Zararlı Analizi
+        - Yapay Zekâ Güvenliği
+        - CTF & Pratik
+        - YouTube, Blog & Podcast
+        - Kurumlar, Topluluklar & Kariyer
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        💪 İpucu: Bunu kendin PR olarak atarsan katkıcı listesine adın girer — [nasıl yapılacağı burada](../blob/main/CONTRIBUTING.md), 5 dakika sürüyor.

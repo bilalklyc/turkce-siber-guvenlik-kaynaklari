@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Türkçe Siber Güvenlik Kaynakları — TÜGA</title>
+<meta name="description" content="Türkçe siber güvenlik kaynaklarının en kapsamlı, doğrulanmış ve topluluk eliyle büyüyen dizini: eğitimler, CTF platformları, YouTube kanalları, bloglar, resmi kurumlar ve daha fazlası. @@TOPLAM@@ kaynak, @@KATEGORI_SAYI@@ kategori.">
+<link rel="canonical" href="https://fevziegeyurtsevenler.github.io/turkce-siber-guvenlik-kaynaklari/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Türkçe Siber Güvenlik Kaynakları — TÜGA">
+<meta property="og:description" content="@@TOPLAM@@ doğrulanmış Türkçe siber güvenlik kaynağı, @@KATEGORI_SAYI@@ kategori. TÜGA Siber Güvenlik Komitesi'nin ortak eseri.">
+<meta property="og:url" content="https://fevziegeyurtsevenler.github.io/turkce-siber-guvenlik-kaynaklari/">
+<meta property="og:image" content="https://fevziegeyurtsevenler.github.io/turkce-siber-guvenlik-kaynaklari/assets/tuga-logo.jpeg">
+<meta property="og:locale" content="tr_TR">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='38' cy='50' r='20' fill='%231C2957'/><circle cx='72' cy='38' r='9' fill='%231C2957'/><circle cx='70' cy='68' r='6' fill='%231C2957'/><rect x='50' y='44' width='26' height='9' rx='4.5' fill='%231C2957' transform='rotate(-14 50 44)'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">@@JSONLD@@</script>
+<style>
+:root{
+  --lacivert:#1C2957; --lacivert-koyu:#121C3D; --murekkep:#1B2340;
+  --soluk:#5C6683; --zemin:#FFFFFF; --kagit:#F4F6FB; --cizgi:#E1E6F2;
+  --dugum:#C6CCDB; --mavi:#2E4FD0; --mavi-acik:#E9EDFB;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--zemin); color:var(--murekkep);
+  font-family:"Manrope",system-ui,sans-serif; font-size:16px; line-height:1.6;
+  overflow-x:hidden;
+}
+h1,h2,h3{font-family:"Sora",system-ui,sans-serif; letter-spacing:-.015em}
+a{color:var(--mavi)}
+
+/* ---- üst çubuk ---- */
+.ustbar{
+  position:sticky; top:0; z-index:50; display:flex; align-items:center; gap:14px;
+  padding:12px 24px; background:rgba(255,255,255,.86); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--cizgi);
+}
+.marka{display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--murekkep); font-family:"Sora"; font-weight:700; font-size:15px}
+.marka svg{width:30px; height:30px}
+.ustbar nav{margin-left:auto; display:flex; gap:8px; align-items:center}
+.ustbar nav a{
+  text-decoration:none; font-weight:600; font-size:14px; color:var(--soluk);
+  padding:7px 13px; border-radius:9px; transition:.18s;
+}
+.ustbar nav a:hover{color:var(--lacivert); background:var(--kagit)}
+.ustbar nav a.birincil{background:var(--lacivert); color:#fff}
+.ustbar nav a.birincil:hover{background:var(--lacivert-koyu)}
+
+/* ---- hero ---- */
+.hero{position:relative; overflow:hidden; background:linear-gradient(180deg,#FBFCFE 0%,var(--kagit) 100%)}
+#ag{position:absolute; inset:0; width:100%; height:100%}
+.hero-ic{
+  position:relative; max-width:880px; margin:0 auto; text-align:center;
+  padding:96px 24px 84px;
+}
+.hero h1{font-size:clamp(34px,6vw,58px); font-weight:800; color:var(--lacivert); margin:0 0 14px; text-wrap:balance}
+.hero h1 .vurgu{color:var(--mavi)}
+.hero .alt{max-width:60ch; margin:0 auto 30px; color:var(--soluk); font-size:17px}
+.sayilar{display:flex; justify-content:center; gap:38px; margin:0 0 34px; flex-wrap:wrap}
+.sayi b{display:block; font-family:"Sora"; font-size:32px; font-weight:800; color:var(--lacivert); font-variant-numeric:tabular-nums}
+.sayi span{font-size:13px; color:var(--soluk); font-weight:600; text-transform:uppercase; letter-spacing:.08em}
+.cta{display:flex; justify-content:center; gap:12px; flex-wrap:wrap}
+.dugme{
+  display:inline-flex; align-items:center; gap:8px; text-decoration:none; font-weight:700;
+  font-size:15px; padding:13px 26px; border-radius:12px; transition:.18s;
+}
+.dugme.dolu{background:var(--lacivert); color:#fff; box-shadow:0 6px 22px rgba(28,41,87,.28)}
+.dugme.dolu:hover{background:var(--lacivert-koyu); transform:translateY(-2px)}
+.dugme.bos{background:#fff; color:var(--lacivert); border:1.5px solid var(--cizgi)}
+.dugme.bos:hover{border-color:var(--lacivert); transform:translateY(-2px)}
+
+/* ---- arama + filtre ---- */
+.arac{max-width:1080px; margin:-30px auto 0; padding:0 24px; position:relative; z-index:5}
+.arama-kutu{
+  display:flex; align-items:center; gap:12px; background:#fff; border:1px solid var(--cizgi);
+  border-radius:16px; padding:16px 22px; box-shadow:0 12px 40px rgba(28,41,87,.10);
+}
+.arama-kutu svg{flex:none; color:var(--soluk)}
+.arama-kutu input{
+  flex:1; border:0; outline:0; font:inherit; font-size:16px; color:var(--murekkep); background:transparent;
+}
+.arama-kutu input::placeholder{color:#9AA2B8}
+.cipler{display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 0}
+.cip{
+  font:inherit; font-size:13px; font-weight:600; color:var(--soluk); background:#fff;
+  border:1px solid var(--cizgi); border-radius:999px; padding:7px 14px; cursor:pointer; transition:.15s;
+}
+.cip b{color:var(--lacivert); font-variant-numeric:tabular-nums}
+.cip:hover{border-color:var(--lacivert); color:var(--lacivert)}
+.cip.secili{background:var(--lacivert); color:#fff; border-color:var(--lacivert)}
+.cip.secili b{color:#AEB9E8}
+.cip:focus-visible,.dugme:focus-visible,.kart:focus-visible{outline:2px solid var(--mavi); outline-offset:2px}
+
+/* ---- kategoriler ---- */
+main{max-width:1080px; margin:0 auto; padding:34px 24px 60px}
+.kategori{margin:34px 0 8px}
+.kategori h2{font-size:24px; color:var(--lacivert); margin:0 0 4px}
+.kat-tanim{color:var(--soluk); margin:0 0 18px; max-width:72ch; font-size:14.5px}
+.izgara{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px}
+.kart{
+  display:flex; flex-direction:column; gap:8px; background:#fff; border:1px solid var(--cizgi);
+  border-radius:14px; padding:18px 20px; text-decoration:none; color:var(--murekkep);
+  transition:transform .18s, box-shadow .18s, border-color .18s;
+  opacity:0; transform:translateY(14px);
+}
+.kart.gorunur{opacity:1; transform:none; transition:opacity .5s, transform .5s, box-shadow .18s, border-color .18s}
+.kart:hover{transform:translateY(-3px); border-color:var(--lacivert); box-shadow:0 12px 30px rgba(28,41,87,.12)}
+.kart-ust{display:flex; align-items:flex-start; justify-content:space-between; gap:10px}
+.kart h3{font-size:16px; margin:0; line-height:1.35}
+.kart p{margin:0; font-size:13.5px; color:var(--soluk)}
+.tur{
+  flex:none; font-size:11px; font-weight:700; letter-spacing:.04em; border-radius:999px;
+  padding:3px 10px; background:var(--mavi-acik); color:var(--mavi); text-transform:uppercase;
+}
+.tur-youtube{background:#FDECEC;color:#C0392B}
+.tur-topluluk{background:#E8F6EF;color:#1E7A55}
+.tur-kurs,.tur-platform{background:#EEF9E8;color:#3D7A1E}
+.tur-podcast{background:#F5ECFB;color:#7D3CA8}
+.git{font-size:12.5px; font-weight:700; color:var(--mavi); margin-top:auto}
+.bos-mesaj{display:none; text-align:center; color:var(--soluk); padding:60px 0}
+.bos-mesaj.goster{display:block}
+
+/* ---- katkı bandı ---- */
+.katki{
+  position:relative; overflow:hidden; background:var(--lacivert); color:#fff;
+  border-radius:22px; padding:52px 32px; text-align:center; margin:56px 0 0;
+}
+.katki::before{
+  content:""; position:absolute; inset:0; opacity:.14;
+  background-image:radial-gradient(circle at 1px 1px, #fff 1.2px, transparent 0);
+  background-size:26px 26px;
+}
+.katki h2{position:relative; font-size:28px; margin:0 0 10px; color:#fff}
+.katki p{position:relative; max-width:56ch; margin:0 auto 24px; color:#C4CCE8}
+.katki .dugme.dolu{background:#fff; color:var(--lacivert); box-shadow:none}
+.katki .dugme.dolu:hover{background:var(--mavi-acik)}
+
+/* ---- alt ---- */
+footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 24px; margin-top:60px}
+.alt-ic{max-width:1080px; margin:0 auto; display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify-content:space-between; font-size:13.5px; color:var(--soluk)}
+.alt-ic a{color:var(--lacivert); font-weight:600; text-decoration:none}
+.alt-ic a:hover{text-decoration:underline}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important; transition:none !important}
+  .kart{opacity:1; transform:none}
+  html{scroll-behavior:auto}
+}
+@media (max-width:640px){
+  .hero-ic{padding:64px 20px 60px}
+  .sayilar{gap:24px}
+  .ustbar nav a:not(.birincil){display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="ustbar">
+  <a class="marka" href="#">
+    <svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="38" cy="50" r="20" fill="#1C2957"/><circle cx="72" cy="38" r="9" fill="#1C2957"/><circle cx="70" cy="68" r="6" fill="#1C2957"/><rect x="50" y="44" width="26" height="9" rx="4.5" fill="#1C2957" transform="rotate(-14 50 44)"/></svg>
+    TÜGA Siber Güvenlik
+  </a>
+  <nav>
+    <a href="#kaynaklar">Kaynaklar</a>
+    <a href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/blob/main/CONTRIBUTING.md">Katkı Rehberi</a>
+    <a class="birincil" href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari">⭐ GitHub</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="ag" aria-hidden="true"></canvas>
+  <div class="hero-ic">
+    <h1>Türkçe Siber Güvenlik<br><span class="vurgu">Kaynakları</span></h1>
+    <p class="alt">Eğitimlerden CTF platformlarına, YouTube kanallarından resmi kurumlara — Türkçe siber güvenlik ekosisteminin tamamı, doğrulanmış ve kategorilenmiş tek bir dizinde.</p>
+    <div class="sayilar">
+      <div class="sayi"><b>@@TOPLAM@@</b><span>kaynak</span></div>
+      <div class="sayi"><b>@@KATEGORI_SAYI@@</b><span>kategori</span></div>
+      <div class="sayi"><b>%100</b><span>Türkçe · ücretsiz erişim</span></div>
+    </div>
+    <div class="cta">
+      <a class="dugme dolu" href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari">⭐ GitHub'da Yıldızla</a>
+      <a class="dugme bos" href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/blob/main/CONTRIBUTING.md">Katkıda Bulun →</a>
+    </div>
+  </div>
+</section>
+
+<div class="arac" id="kaynaklar">
+  <div class="arama-kutu">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.4-3.4"/></svg>
+    <input id="arama" type="search" placeholder="Kaynak ara: CTF, SOC, adli bilişim, YouTube…" aria-label="Kaynaklarda ara">
+  </div>
+  <div class="cipler">
+    <button class="cip secili" data-hedef="tum">Tümü</button>
+    @@CIPLER@@
+  </div>
+</div>
+
+<main>
+  @@BOLUMLER@@
+  <p class="bos-mesaj" id="bos">Aramanla eşleşen kaynak bulunamadı.</p>
+
+  <div class="katki">
+    <h2>Eksik kaynak mı gördün?</h2>
+    <p>Bu dizin TÜGA Siber Güvenlik Komitesi tarafından yürütülür ve katkıya açıktır. Bildiğin bir Türkçe kaynağı pull request ile ekleyebilirsin.</p>
+    <a class="dugme dolu" href="https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/blob/main/CONTRIBUTING.md">Katkı Rehberi</a>
+  </div>
+</main>
+
+<footer>
+  <div class="alt-ic">
+    <span>© TÜGA Siber Güvenlik Komitesi · içerik <a href="https://creativecommons.org/licenses/by/4.0/deed.tr">CC BY 4.0</a></span>
+    <span>Komite Başkanı: <a href="https://www.linkedin.com/in/fevziege/">Fevzi Ege Yurtsevenler</a></span>
+  </div>
+</footer>
+
+<script>
+/* ---- ağ animasyonu (TÜGA logosundaki düğüm motifi) ---- */
+(function(){
+  const c=document.getElementById('ag'), ctx=c.getContext('2d');
+  const azHareket=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W,H,noktalar=[];
+  function kur(){
+    W=c.width=c.offsetWidth*devicePixelRatio; H=c.height=c.offsetHeight*devicePixelRatio;
+    const n=Math.min(70,Math.floor(c.offsetWidth/16));
+    noktalar=Array.from({length:n},()=>({
+      x:Math.random()*W, y:Math.random()*H,
+      vx:(Math.random()-.5)*.22*devicePixelRatio, vy:(Math.random()-.5)*.22*devicePixelRatio,
+      r:(Math.random()*2.4+1.1)*devicePixelRatio
+    }));
+  }
+  function ciz(){
+    ctx.clearRect(0,0,W,H);
+    const menzil=130*devicePixelRatio;
+    for(let i=0;i<noktalar.length;i++){
+      const a=noktalar[i];
+      for(let j=i+1;j<noktalar.length;j++){
+        const b=noktalar[j], dx=a.x-b.x, dy=a.y-b.y, m=Math.hypot(dx,dy);
+        if(m<menzil){
+          ctx.strokeStyle='rgba(163,172,199,'+(0.34*(1-m/menzil))+')';
+          ctx.lineWidth=devicePixelRatio*.8;
+          ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();
+        }
+      }
+    }
+    for(const p of noktalar){
+      ctx.fillStyle='rgba(28,41,87,.55)';
+      ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,7);ctx.fill();
+    }
+  }
+  function adim(){
+    for(const p of noktalar){
+      p.x+=p.vx; p.y+=p.vy;
+      if(p.x<0||p.x>W)p.vx*=-1;
+      if(p.y<0||p.y>H)p.vy*=-1;
+    }
+    ciz(); requestAnimationFrame(adim);
+  }
+  kur(); azHareket?ciz():adim();
+  addEventListener('resize',()=>{kur(); if(azHareket)ciz();});
+})();
+
+/* ---- kart görünme animasyonu ---- */
+(function(){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{
+    if(e.isIntersecting){e.target.classList.add('gorunur');io.unobserve(e.target);}
+  }),{rootMargin:'0px 0px -6% 0px'});
+  document.querySelectorAll('.kart').forEach(k=>io.observe(k));
+})();
+
+/* ---- arama + kategori filtresi ---- */
+(function(){
+  const arama=document.getElementById('arama');
+  const cipler=[...document.querySelectorAll('.cip')];
+  const kategoriler=[...document.querySelectorAll('.kategori')];
+  const bos=document.getElementById('bos');
+  let secili='tum';
+  function uygula(){
+    const q=arama.value.trim().toLocaleLowerCase('tr');
+    let toplamGorunen=0;
+    for(const kat of kategoriler){
+      const katAcik=(secili==='tum'||kat.id===secili);
+      let gorunen=0;
+      for(const kart of kat.querySelectorAll('.kart')){
+        const uydu=katAcik&&(!q||kart.textContent.toLocaleLowerCase('tr').includes(q));
+        kart.style.display=uydu?'':'none';
+        if(uydu){gorunen++;kart.classList.add('gorunur');}
+      }
+      kat.style.display=gorunen?'':'none';
+      toplamGorunen+=gorunen;
+    }
+    bos.classList.toggle('goster',toplamGorunen===0);
+  }
+  arama.addEventListener('input',uygula);
+  cipler.forEach(c=>c.addEventListener('click',()=>{
+    secili=c.dataset.hedef;
+    cipler.forEach(x=>x.classList.toggle('secili',x===c));
+    uygula();
+    if(secili!=='tum')document.getElementById(secili)?.scrollIntoView({block:'start'});
+  }));
+})();
+</script>
+</body>
+</html>

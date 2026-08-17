@@ -1,0 +1,18 @@
+name: 🔗 Ölü Link Bildir
+description: Çalışmayan ya da içeriği değişmiş bir linki bildir
+title: "[Ölü Link] "
+labels: ["ölü-link"]
+body:
+  - type: input
+    id: kaynak
+    attributes:
+      label: Hangi kaynak?
+    validations:
+      required: true
+  - type: textarea
+    id: detay
+    attributes:
+      label: Ne görüyorsun?
+      placeholder: "404 veriyor / alan adı satılık / içerik artık İngilizce vb."
+    validations:
+      required: true
