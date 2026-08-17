@@ -375,17 +375,24 @@ footer{border-top:1px solid var(--cizgi); background:var(--kagit); padding:30px 
   document.querySelectorAll('.kart').forEach(k=>io.observe(k));
 })();
 
-/* ---- katkıcılar (GitHub API) ---- */
+/* ---- katkıcılar (commit geçmişinden, önbelleksiz) ---- */
 (function(){
-  fetch('https://api.github.com/repos/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/contributors?per_page=100')
+  fetch('https://api.github.com/repos/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/commits?per_page=100')
     .then(r=>r.ok?r.json():Promise.reject())
-    .then(kisiler=>{
+    .then(commitler=>{
+      const kisiler=new Map();
+      for(const c of commitler){
+        const a=c.author;
+        if(!a||a.type!=='User')continue;
+        const k=kisiler.get(a.login)||{login:a.login,avatar:a.avatar_url,url:a.html_url,sayi:0};
+        k.sayi++; kisiler.set(a.login,k);
+      }
       const kutu=document.getElementById('avatarlar');
-      kisiler.filter(k=>k.type==='User').forEach(k=>{
+      [...kisiler.values()].sort((a,b)=>b.sayi-a.sayi).forEach(k=>{
         const a=document.createElement('a');
-        a.className='kisi'; a.href=k.html_url; a.target='_blank'; a.rel='noopener';
-        a.innerHTML='<img loading="lazy" alt="'+k.login+'" src="'+k.avatar_url+'&s=128">'
-          +'<span>'+k.login+'</span><b>'+k.contributions+' katkı</b>';
+        a.className='kisi'; a.href=k.url; a.target='_blank'; a.rel='noopener';
+        a.innerHTML='<img loading="lazy" alt="'+k.login+'" src="'+k.avatar+'&s=128">'
+          +'<span>'+k.login+'</span><b>'+k.sayi+' katkı</b>';
         kutu.appendChild(a);
       });
       if(kutu.children.length)document.getElementById('katkicilar').classList.add('goster');
