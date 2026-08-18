@@ -6,7 +6,7 @@
 
 **Türkçe siber güvenlik ekosisteminin tamamı — doğrulanmış, kategorilenmiş, topluluk eliyle büyüyen tek dizin.**
 
-[![Kaynak Sayısı](https://img.shields.io/badge/kaynak-70-1C2957?style=flat-square)](#-i̇çindekiler)
+[![Kaynak Sayısı](https://img.shields.io/badge/kaynak-76-1C2957?style=flat-square)](#-i̇çindekiler)
 [![Link Kontrolü](https://img.shields.io/github/actions/workflow/status/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/link-kontrol.yml?style=flat-square&label=linkler&color=2E4FD0)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/actions/workflows/link-kontrol.yml)
 [![PR'lar Açık](https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-2E4FD0?style=flat-square)](CONTRIBUTING.md)
 [![Katkıcılar](https://img.shields.io/github/contributors/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari?style=flat-square&label=katk%C4%B1c%C4%B1&color=1C2957)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/graphs/contributors)
@@ -22,15 +22,15 @@
 
 ## 📚 İçindekiler
 
-- [🚀 Başlangıç & Eğitim](#baslangic-egitim) `10`
+- [🚀 Başlangıç & Eğitim](#baslangic-egitim) `12`
 - [🕸️ Web Güvenliği & Sızma Testi](#web-guvenligi-sizma-testi) `5`
-- [🌐 Ağ & Sistem Güvenliği](#ag-sistem-guvenligi) `9`
-- [🛡️ Savunma — Blue Team & SOC](#savunma-blue-team-soc) `11`
+- [🌐 Ağ & Sistem Güvenliği](#ag-sistem-guvenligi) `10`
+- [🛡️ Savunma — Blue Team & SOC](#savunma-blue-team-soc) `12`
 - [🔬 Adli Bilişim & Zararlı Analizi](#adli-bilisim-zararli-analizi) `6`
 - [🤖 Yapay Zekâ Güvenliği](#yapay-zeka-guvenligi) `3`
-- [🚩 CTF & Pratik](#ctf-pratik) `7`
+- [🚩 CTF & Pratik](#ctf-pratik) `8`
 - [📺 YouTube, Blog & Podcast](#youtube-blog-podcast) `8`
-- [🏛️ Kurumlar, Topluluklar & Kariyer](#kurumlar-topluluklar-kariyer) `7`
+- [🏛️ Kurumlar, Topluluklar & Kariyer](#kurumlar-topluluklar-kariyer) `8`
 - [🗂️ Diğer Türkçe Derlemeler](#diger-turkce-derlemeler) `4`
 - [🤝 Katkı](#-katkı)
 
@@ -52,7 +52,7 @@
 | [Turkcell Geleceği Yazanlar — Siber Güvenlik Eğitim Programı](https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik) | Temel siber güvenlik, Linux, ağ temelleri, sızma testi ve Python konularını kapsayan ücretsiz ve sertifikalı Türkçe eğitim serisi. | kurs |
 | [Techcareer.net — Siber Güvenliğe Giriş Eğitimi](https://www.techcareer.net/courses/siber-guvenlik) | Temel siber güvenlik kavramları, saldırı türleri ve veri koruma yöntemlerini 5 modülde anlatan ücretsiz Türkçe başlangıç kursu. | kurs |
 | [TÜBİTAK BİLGEM Siber Akademi](https://siberakademi.bilgem.tubitak.gov.tr/) | TÜBİTAK BİLGEM tarafından sunulan; siber güvenlik, adli bilişim, zararlı yazılım analizi ve tersine mühendislik alanlarında online dersler ve yetkinlik eğitimleri barındıran resmi platform. | platform |
-| [ag-cyber-lab](https://github.com/ahmetgulerpy/ag-cyber-lab) | Ahmet Güler tarafından hazırlanan, siber güvenlik temelleri ve pratik laboratuvar ortamı çalışmalarını içeren açık kaynaklı rehber ve kaynak arşivi. | repo |
+| [ag-cyber-lab](https://github.com/ahmetgulerpy/ag-cyber-lab) | Yapılandırılmış dersler, uygulamalı lab görevleri ve ilerleme takibiyle siber güvenlik temellerini öğreten açık kaynak Türkçe eğitim platformu. | repo |
 
 ## 🕸️ Web Güvenliği & Sızma Testi
 
@@ -138,7 +138,7 @@
 | [Siber Tycoon](https://tycoon.altaysec.com.tr) | Siber güvenlik kariyerini oyunlaştıran Türkçe tarayıcı oyunu — SOC analistliğinden CISO'luğa ilerle. | platform |
 | [Hackviser](https://hackviser.com) | Web zafiyetleri, ağ güvenliği ve sistem sızma testleri üzerine tarayıcı üzerinden erişilebilen uygulamalı Türkçe laboratuvarlar ve CTF meydan okumaları sunan pratik platformu. | platform |
 | [Siber Kampüs Akademi](https://www.siberkampus.org/) | Web zafiyetleri ve ağ araçlarını tarayıcı içindeki sanal laboratuvarlar ve CTF odalarıyla uygulamalı öğreten Türkçe eğitim platformu. | platform |
-| [Yavuzlar](https://yavuzlar.org/blog) | Bağımsız araştırmacılar için web, ağ ve kriptografi alanlarında uygulamalı CTF çözümleri ve siber güvenlik araştırmaları. | topluluk |
+| [Yavuzlar](https://yavuzlar.org/) | Bağımsız araştırmacılar için web, ağ ve kriptografi alanlarında uygulamalı CTF çözümleri ve siber güvenlik araştırmaları. | topluluk |
 
 ## 📺 YouTube, Blog & Podcast
 

@@ -11,6 +11,8 @@
 - [Savunma Sanayii Akademi](https://www.ssb.gov.tr/savunma-sanayii-akademi) — Siber güvenlik, ağ ve savunma teknolojileri alanında online dersler ve sertifikalı eğitim modülleri barındıran resmi akademi platformu.
 - [Turkcell Geleceği Yazanlar — Siber Güvenlik Eğitim Programı](https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik) — Temel siber güvenlik, Linux, ağ temelleri, sızma testi ve Python konularını kapsayan ücretsiz ve sertifikalı Türkçe eğitim serisi.
 - [Techcareer.net — Siber Güvenliğe Giriş Eğitimi](https://www.techcareer.net/courses/siber-guvenlik) — Temel siber güvenlik kavramları, saldırı türleri ve veri koruma yöntemlerini 5 modülde anlatan ücretsiz Türkçe başlangıç kursu.
+- [TÜBİTAK BİLGEM Siber Akademi](https://siberakademi.bilgem.tubitak.gov.tr/) — TÜBİTAK BİLGEM tarafından sunulan; siber güvenlik, adli bilişim, zararlı yazılım analizi ve tersine mühendislik alanlarında online dersler ve yetkinlik eğitimleri barındıran resmi platform.
+- [ag-cyber-lab](https://github.com/ahmetgulerpy/ag-cyber-lab) — Yapılandırılmış dersler, uygulamalı lab görevleri ve ilerleme takibiyle siber güvenlik temellerini öğreten açık kaynak Türkçe eğitim platformu.
 
 ## 🕸️ Web Güvenliği & Sızma Testi
 - [Bughane Academy](https://bughaneacademy.com/) — XSS, SQL injection, IDOR, SSRF ve CSRF gibi web zafiyetleri üzerine gerçek bug bounty write-up'ları, payload/bypass teknikleri ve mentorluk alanı sunan ücretsiz Türkçe bug bounty topluluğu.
@@ -29,6 +31,7 @@
 - [siberguvenlik.gen.tr — Siber Güvenlik ve Etik Hacking Ders Notları](https://siberguvenlik.gen.tr/ders/) — İşletim sistemleri, ağlar, kriptoloji, kablosuz ağ güvenliği ve sızma testlerini kapsayan 15 haftalık üniversite dersinin ücretsiz Türkçe sunum ve not arşivi.
 - [Murat Kara — Bilgisayar Ağları (Network) Ders Notu PDF](https://muratkara.tr/network/Network.pdf) — Bilgisayar ağlarına girişten protokollere kadar konuları kapsayan 246 sayfalık ücretsiz Türkçe ders notu PDF'i (öğretim görevlisi Murat Kara'nın ders materyali).
 - [Techcareer.net — Linux & Bash Scripting Eğitimi](https://www.techcareer.net/courses/linux-bash-script-egitimi) — Temel Linux komutları, dosya yönetimi, kullanıcı yetkilendirme ve otomasyon için Bash betik yazımını anlatan ücretsiz Türkçe eğitim.
+- [BTRisk Blog](https://www.btrisk.com/blog/) — Kurumsal siber güvenlik mimarisi, ağ sızma testleri ve zafiyet yönetimi üzerine teknik içerikler.
 
 ## 🛡️ Savunma — Blue Team & SOC
 - [USOM Zararlı Bağlantılar Listesi](https://www.usom.gov.tr/adres) — Siber Güvenlik Başkanlığı'nın resmi tehdit istihbaratı beslemesi: Türkiye'ye yönelik oltalama ve zararlı alan adlarının güncel listesi; SOC ekiplerinin engelleme listelerine doğrudan entegre edebileceği ulusal kaynak (hizmetler kademeli olarak siberguvenlik.gov.tr'ye taşınıyor, .txt paylaşımı Haziran 2026'da API'ye dönüyor).
@@ -42,6 +45,7 @@
 - [Kurumsal SOME'lerin Kurulması ve Yönetilmesi (USOM)](https://dsy.usom.gov.tr/usom/19/02/190211090329_Kurumsal%20_SOME_Rehberi.pdf) — USOM'un kurum içi siber olaylara müdahale ekiplerinin organizasyonunu, görevlerini ve olay öncesi-esnası-sonrası süreçlerini tanımladığı resmi Türkçe rehber.
 - [Sektörel SOME Kurulum ve Yönetim Rehberi (USOM)](https://hgm.uab.gov.tr/uploads/pages/siber-guvenlik/sektorel-some-reh.pdf) — Sektörel SOME'lerin Kurumsal SOME ve USOM ile koordinasyonunu, ekip yapısını ve siber olay yönetimi sorumluluklarını açıklayan resmi Türkçe rehber.
 - [Turkcell Geleceği Yazanlar — Siber Güvenlik Analisti Eğitim Programı](https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik-analisti) — Ağ temelleri, bilgi toplama, zafiyet analizi ve savunma mekanizmalarını modüler olarak ele alan ücretsiz Türkçe analist eğitimi.
+- [BTK Akademi - SIEM Temelleri](https://www.btkakademi.gov.tr/portal/course/siem-temelleri-29958) — SIEM ürünlerinin çalışma mantığını, log korelasyonunu ve Splunk/Kibana gibi temel araçları anlatan ücretsiz Türkçe eğitim.
 
 ## 🔬 Adli Bilişim & Zararlı Analizi
 - [BTK Akademi — Adli Bilişim Eğitimi](https://www.btkakademi.gov.tr/portal/course/adli-bilisime-giris-24376) — BTK'nın ücretsiz ve katılım sertifikalı Türkçe adli bilişim programı; dijital delil toplama, imaj alma ve adli inceleme süreçlerini video derslerle anlatıyor, bilirkişilik yapan akademisyen eğitmen tarafından hazırlanmış.
@@ -64,6 +68,7 @@
 - [Siber Tycoon](https://tycoon.altaysec.com.tr) — Siber güvenlik kariyerini oyunlaştıran Türkçe tarayıcı oyunu — SOC analistliğinden CISO'luğa ilerle.
 - [Hackviser](https://hackviser.com) — Web zafiyetleri, ağ güvenliği ve sistem sızma testleri üzerine tarayıcı üzerinden erişilebilen uygulamalı Türkçe laboratuvarlar ve CTF meydan okumaları sunan pratik platformu.
 - [Siber Kampüs Akademi](https://www.siberkampus.org/) — Web zafiyetleri ve ağ araçlarını tarayıcı içindeki sanal laboratuvarlar ve CTF odalarıyla uygulamalı öğreten Türkçe eğitim platformu.
+- [Yavuzlar](https://yavuzlar.org/) — Bağımsız araştırmacılar için web, ağ ve kriptografi alanlarında uygulamalı CTF çözümleri ve siber güvenlik araştırmaları.
 
 ## 📺 YouTube, Blog & Podcast
 - [Mehmet İnce (mdisec) YouTube Kanalı](https://www.youtube.com/@mdisec) — 300+ zafiyet keşfetmiş bir sızma testi uzmanının canlı yayın ve derslerle web güvenliği, exploit geliştirme ve siber güvenlik kariyerini Türkçe anlattığı, 47 bin aboneli aktif YouTube kanalı.
@@ -83,6 +88,7 @@
 - [PwnLabMe](https://pwnlab.me/) — Sızma testi, zararlı yazılım analizi, ağ güvenliği ve CTF konularında Türkçe soru-cevap, eğitim içerikleri ve kariyer/sertifika rehberleri barındıran aktif siber güvenlik topluluk forumu.
 - [Bilgi Teknolojileri ve İletişim Dergisi (BTK Dergi)](https://dergi.btk.gov.tr/tr/pub/btkdergi) — BTK'nın siber güvenlik, bilgi güvenliği, ağ güvenliği, kriptografi ve siber savunma alanlarında Türkçe açık erişimli hakemli makaleler yayımladığı akademik dergi.
 - [Cyber BlackSea](https://cyber-blacksea.ktusec.com.tr/) — Karadeniz bölgesindeki öğrencileri, uzmanları ve sektör profesyonellerini CTF ve uygulamalı siber güvenlik eğitimleri etrafında bir araya getiren Türkçe zirve ve topluluk platformu.
+- [TÜBİTAK BİLGEM SGE](https://sge.bilgem.tubitak.gov.tr/) — Güvenli yazılım geliştirme standartları, kriptoloji ve kurumsal güvenlik mimarisi rehberleri.
 
 ## 🗂️ Diğer Türkçe Derlemeler
 - [LuNiZz — siber-guvenlik-sss](https://github.com/LuNiZz/siber-guvenlik-sss) — Web güvenliği, sızma testi lab kurulumu, pentest araçları ve TryHackMe/HackTheBox gibi pratik platformlara yol haritası veren, aktif bakımlı 3.6k yıldızlı Türkçe SSS deposu.
