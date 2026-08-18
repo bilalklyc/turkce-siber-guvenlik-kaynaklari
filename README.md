@@ -138,7 +138,7 @@
 | [Siber Tycoon](https://tycoon.altaysec.com.tr) | Siber güvenlik kariyerini oyunlaştıran Türkçe tarayıcı oyunu — SOC analistliğinden CISO'luğa ilerle. | platform |
 | [Hackviser](https://hackviser.com) | Web zafiyetleri, ağ güvenliği ve sistem sızma testleri üzerine tarayıcı üzerinden erişilebilen uygulamalı Türkçe laboratuvarlar ve CTF meydan okumaları sunan pratik platformu. | platform |
 | [Siber Kampüs Akademi](https://www.siberkampus.org/) | Web zafiyetleri ve ağ araçlarını tarayıcı içindeki sanal laboratuvarlar ve CTF odalarıyla uygulamalı öğreten Türkçe eğitim platformu. | platform |
-| [Yavuzlar](https://yavuzlar.org/) | Bağımsız araştırmacılar için web, ağ ve kriptografi alanlarında uygulamalı CTF çözümleri ve siber güvenlik araştırmaları. | topluluk |
+| [Yavuzlar Yazılarımız](https://docs.yavuzlar.org/) | Yavuzlar topluluğunun web, ağ, kriptografi ve CTF alanlarındaki Türkçe eğitim yazılarını ve araştırmalarını topladığı doküman platformu. | doküman |
 
 ## 📺 YouTube, Blog & Podcast
 
