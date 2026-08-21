@@ -6,7 +6,7 @@
 
 **Türkçe siber güvenlik ekosisteminin tamamı — doğrulanmış, kategorilenmiş, topluluk eliyle büyüyen tek dizin.**
 
-[![Kaynak Sayısı](https://img.shields.io/badge/kaynak-81-1C2957?style=flat-square)](#-i̇çindekiler)
+[![Kaynak Sayısı](https://img.shields.io/badge/kaynak-87-1C2957?style=flat-square)](#-i̇çindekiler)
 [![Link Kontrolü](https://img.shields.io/github/actions/workflow/status/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/link-kontrol.yml?style=flat-square&label=linkler&color=2E4FD0)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/actions/workflows/link-kontrol.yml)
 [![PR'lar Açık](https://img.shields.io/badge/PR'lar-a%C3%A7%C4%B1k-2E4FD0?style=flat-square)](CONTRIBUTING.md)
 [![Katkıcılar](https://img.shields.io/github/contributors/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari?style=flat-square&label=katk%C4%B1c%C4%B1&color=1C2957)](https://github.com/fevziegeyurtsevenler/turkce-siber-guvenlik-kaynaklari/graphs/contributors)
@@ -22,14 +22,14 @@
 
 ## 📚 İçindekiler
 
-- [🚀 Başlangıç & Eğitim](#baslangic-egitim) `13`
-- [🕸️ Web Güvenliği & Sızma Testi](#web-guvenligi-sizma-testi) `8`
+- [🚀 Başlangıç & Eğitim](#baslangic-egitim) `15`
+- [🕸️ Web Güvenliği & Sızma Testi](#web-guvenligi-sizma-testi) `10`
 - [🌐 Ağ & Sistem Güvenliği](#ag-sistem-guvenligi) `10`
-- [🛡️ Savunma — Blue Team & SOC](#savunma-blue-team-soc) `12`
+- [🛡️ Savunma — Blue Team & SOC](#savunma-blue-team-soc) `13`
 - [🔬 Adli Bilişim & Zararlı Analizi](#adli-bilisim-zararli-analizi) `7`
 - [🤖 Yapay Zekâ Güvenliği](#yapay-zeka-guvenligi) `3`
 - [🚩 CTF & Pratik](#ctf-pratik) `8`
-- [📺 YouTube, Blog & Podcast](#youtube-blog-podcast) `8`
+- [📺 YouTube, Blog & Podcast](#youtube-blog-podcast) `9`
 - [🏛️ Kurumlar, Topluluklar & Kariyer](#kurumlar-topluluklar-kariyer) `8`
 - [🗂️ Diğer Türkçe Derlemeler](#diger-turkce-derlemeler) `4`
 - [🤝 Katkı](#-katkı)
@@ -72,7 +72,7 @@
 | [Web Uygulamaları Penetrasyon Testleri Metodolojileri](https://www.beyaz.net/tr/guvenlik/makaleler/web_uygulamalari_penetrasyon_testleri_metodolojileri.html) | Web pentest süreçlerini ve yaygın metodolojileri adım adım anlatan teknik makale. | blog |
 | [Docker ile Web Uygulama Pentest Laboratuvarı Kurma](https://ondernet.net/docker-ile-web-uygulama-pentest-laboratuvari-kurma) | Kali, Juice Shop, DVWA, bWAPP ve WebGoat ile Docker üzerinde kendi pentest lab'ını kurmayı anlatan rehber. | blog |
 | [Eyüp Turan — Siber Güvenlik Lab & Blog](https://eyupturan.com/) | SQLi, XSS, IDOR, LFI ve file upload gibi web zafiyetlerini DVWA/bWAPP lab'larıyla Türkçe adım adım anlatan aktif pentest blogu. | blog |
-| [Cisco NetAcad - Etik Hacker](https://skillsforall.com/course/ethical-hacker) | Penetrasyon testi planlama, zafiyet değerlendirmesi ve saldırgan güvenlik metodolojilerini anlatan ücretsiz Türkçe eğitim. | kurs |
+| [Cisco NetAcad - Etik Hacker](https://www.netacad.com/courses/ethical-hacker?courseLang=tr-TR) | Penetrasyon testi planlama, zafiyet değerlendirmesi ve saldırgan güvenlik metodolojilerini anlatan ücretsiz Türkçe eğitim. | kurs |
 
 ## 🌐 Ağ & Sistem Güvenliği
 

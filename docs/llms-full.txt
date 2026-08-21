@@ -14,6 +14,8 @@
 - [TÜBİTAK BİLGEM Siber Akademi](https://siberakademi.bilgem.tubitak.gov.tr/) — TÜBİTAK BİLGEM tarafından sunulan; siber güvenlik, adli bilişim, zararlı yazılım analizi ve tersine mühendislik alanlarında online dersler ve yetkinlik eğitimleri barındıran resmi platform.
 - [ag-cyber-lab](https://github.com/ahmetgulerpy/ag-cyber-lab) — Yapılandırılmış dersler, uygulamalı lab görevleri ve ilerleme takibiyle siber güvenlik temellerini öğreten açık kaynak Türkçe eğitim platformu.
 - [Cisco Networking Academy — Siber Güvenliğe Giriş](https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=tr-TR) — Cisco tarafından hazırlanan; siber tehditleri, saldırı yöntemlerini, kişisel ve kurumsal verilerin korunmasını ve siber güvenlik kariyerlerini etkileşimli içeriklerle anlatan ücretsiz Türkçe başlangıç eğitimi.
+- [Nmap’e Giriş — Portlar, Servisler ve Temel Tarama Teknikleri](https://bilalkalayci.medium.com/nmape-giri%C5%9F-portlar-servisler-ve-temel-tarama-teknikleri-dd6326433946) — Temeli sıfır veya sıfıra yakın olan araştırmacılara anlaşılır betimlemelerle nmap'i anlatan Türkçe blog yazısı.
+- [Siber Güvenlik Eğitimi Türkçe Rehber](https://github.com/EnginArslan49/siber-guvenlik-egitimi-turkce-kapsamli-rehber) — Temel kavramlar, saldırı türleri, SOME/SOC ve kariyer/sertifika konularını kapsayan ücretsiz Türkçe başlangıç rehberi.
 
 ## 🕸️ Web Güvenliği & Sızma Testi
 - [Bughane Academy](https://bughaneacademy.com/) — XSS, SQL injection, IDOR, SSRF ve CSRF gibi web zafiyetleri üzerine gerçek bug bounty write-up'ları, payload/bypass teknikleri ve mentorluk alanı sunan ücretsiz Türkçe bug bounty topluluğu.
@@ -24,6 +26,8 @@
 - [OWASP Top 10 2021 Resmi Türkçe Çevirisi](https://owasp.org/Top10/2021/tr/) — Broken Access Control'den SSRF'e kadar 10 web uygulama riskini ve iyileştirme önerilerini içeren OWASP Top 10 2021'in resmi Türkçe çevirisi.
 - [Web Uygulamaları Penetrasyon Testleri Metodolojileri](https://www.beyaz.net/tr/guvenlik/makaleler/web_uygulamalari_penetrasyon_testleri_metodolojileri.html) — Web pentest süreçlerini ve yaygın metodolojileri adım adım anlatan teknik makale.
 - [Docker ile Web Uygulama Pentest Laboratuvarı Kurma](https://ondernet.net/docker-ile-web-uygulama-pentest-laboratuvari-kurma) — Kali, Juice Shop, DVWA, bWAPP ve WebGoat ile Docker üzerinde kendi pentest lab'ını kurmayı anlatan rehber.
+- [Eyüp Turan — Siber Güvenlik Lab & Blog](https://eyupturan.com/) — SQLi, XSS, IDOR, LFI ve file upload gibi web zafiyetlerini DVWA/bWAPP lab'larıyla Türkçe adım adım anlatan aktif pentest blogu.
+- [Cisco NetAcad - Etik Hacker](https://www.netacad.com/courses/ethical-hacker?courseLang=tr-TR) — Penetrasyon testi planlama, zafiyet değerlendirmesi ve saldırgan güvenlik metodolojilerini anlatan ücretsiz Türkçe eğitim.
 
 ## 🌐 Ağ & Sistem Güvenliği
 - [Linux Dersleri — Ağ (Network) Temelleri Eğitimi](https://www.linuxdersleri.net/temel-network.html) — OSI/TCP-IP modeli, switch-router çalışması ve ağ protokollerini 8 bölümde anlatan ücretsiz Türkçe ağ temelleri serisi; aynı sitede Temel Linux eğitimi de var.
@@ -50,6 +54,7 @@
 - [Sektörel SOME Kurulum ve Yönetim Rehberi (USOM)](https://hgm.uab.gov.tr/uploads/pages/siber-guvenlik/sektorel-some-reh.pdf) — Sektörel SOME'lerin Kurumsal SOME ve USOM ile koordinasyonunu, ekip yapısını ve siber olay yönetimi sorumluluklarını açıklayan resmi Türkçe rehber.
 - [Turkcell Geleceği Yazanlar — Siber Güvenlik Analisti Eğitim Programı](https://gelecegiyazanlar.turkcell.com.tr/egitimler/siber-guvenlik-analisti) — Ağ temelleri, bilgi toplama, zafiyet analizi ve savunma mekanizmalarını modüler olarak ele alan ücretsiz Türkçe analist eğitimi.
 - [BTK Akademi - SIEM Temelleri](https://www.btkakademi.gov.tr/portal/course/siem-temelleri-29958) — SIEM ürünlerinin çalışma mantığını, log korelasyonunu ve Splunk/Kibana gibi temel araçları anlatan ücretsiz Türkçe eğitim.
+- [Serdar Kurt Blog](https://www.serdarkurt.com.tr/) — Wazuh SIEM kurulumu, pfSense, honeypot (T-POT) ve Atomic Red Team gibi savunma araçlarını Türkçe teknik rehberlerle anlatan sistem güvenliği blogu.
 
 ## 🔬 Adli Bilişim & Zararlı Analizi
 - [BTK Akademi — Adli Bilişim Eğitimi](https://www.btkakademi.gov.tr/portal/course/adli-bilisime-giris-24376) — BTK'nın ücretsiz ve katılım sertifikalı Türkçe adli bilişim programı; dijital delil toplama, imaj alma ve adli inceleme süreçlerini video derslerle anlatıyor, bilirkişilik yapan akademisyen eğitmen tarafından hazırlanmış.
@@ -84,6 +89,7 @@
 - [MDISEC Twitch Yayınları](https://github.com/mdisec/mdisec-twitch-yayinlari) — Mehmet İnce'nin Türkçe canlı yayınlarına ait kod, sunum ve bağlantıları; web güvenliği, tehdit istihbaratı, SOC, CTF ve kariyer konularında arşivleyen açık kaynak depo.
 - [Siberin Günlüğü](https://podcasts.apple.com/tr/podcast/siberin-g%C3%BCnl%C3%BC%C4%9F%C3%BC/id1456842720) — Türkiye ve dünyadaki siber güvenlik gelişmelerini, tehditleri ve sektör gündemini Türkçe bölümlerle ele alan podcast serisi.
 - [Siber Kulüpler Birliği Blog](https://blog.siberkulupler.com/) — Üniversite siber güvenlik topluluklarının hazırladığı ağ güvenliği, zararlı analizi ve CTF çözümlerini içeren Türkçe teknik makale yayını.
+- [Siber Havadis](https://siberhavadis.com/) — Üniversite öğrencilerinin hazırladığı; CVE, mevzuat ve yapay zekâ güvenliği gündemini Türkçe haber-analizlerle takip eden siber güvenlik haber sitesi.
 
 ## 🏛️ Kurumlar, Topluluklar & Kariyer
 - [USOM — Ulusal Siber Olaylara Müdahale Merkezi](https://www.usom.gov.tr/) — Türkiye'nin resmi siber olay müdahale merkezi; zararlı bağlantı listeleri, zafiyet bildirimleri, güvenlik duyuruları ve siber ihbar mekanizması sunar.
